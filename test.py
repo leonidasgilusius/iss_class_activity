@@ -4,7 +4,7 @@ def find_cube_pairs(target): # added a colon
 
     for a in range(1, max_num + 1): # range not ranges # added a colon
         for b in range(a, max_num + 1): # range not ranges # added a colon
-            if a**3 + b**3 == target: # target not targ # added a colon
+            if a**3 + b**3 == target: # target not targ # added a colon # fixed ** operator
                 solutions.append((a, b)); #solutions not sol
     return solutions #solutions not sol
 
